@@ -152,7 +152,7 @@ public static void onDestroy()
 
 AHOY 執行登入程序之後，會發送 broadcast 通知登入結果，所以在 App 裡面要註冊一個 broadcast receiver 來接收
 
-**Note**: 使用 android support library 裡面提供的 [LocalBroadcastManager][3]，同一個 app 才能接收此 broadcast
+**Note**: 使用 android support library 裡面提供的 [LocalBroadcastManager](https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html)，同一個 app 才能接收此 broadcast
 
 - **Broadcast Intent Filter**
   - AhoySDK.AHOY_LOGIN_STATUS_NOTIFICATION
@@ -284,7 +284,3 @@ public void onMessageReceived(String from, Bundle data) {
     AhoySDK.handleMessageReceived(getApplication(), data);
 }
 ```
-
-[1]: https://drive.google.com/file/d/0BwrJzC4h0_-5eUxJa3l5MWpQd1E/view?usp=sharing
-[2]: https://drive.google.com/file/d/0BwrJzC4h0_-5S0JzaC0yWGRUSEU/view?usp=sharing
-[3]: https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html
