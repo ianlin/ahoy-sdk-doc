@@ -35,6 +35,8 @@
 <string>Used to find your friends</string>
 <key>NSMicrophoneUsageDescription</key>
 <string>Used to communicate with others</string>
+<key>NSCameraUsageDescription</key>
+<string>Used to make video chats with others</string>
 ```
 
 ### Code Push Deployment Key
