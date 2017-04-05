@@ -8,7 +8,10 @@
 
 ## Build Settings
 
-- **Embedded Content Contains Swift Code** = **Yes**
+- Swift support
+  - (Xcode < 8 ) **Embedded Content Contains Swift Code** = **Yes**
+  - (Xcode >= 8) **ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES** = **Yes**
+
 - **Enable Bitcode** = **No**
 
 ## Build Phases
